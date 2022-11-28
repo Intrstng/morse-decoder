@@ -88,12 +88,6 @@ switch (element) {
   case ('**'): acc.push('**');
   break;
 };
-/*
-    if (element === '10') acc.push('.');
-    else if (element === '11') acc.push('-');
-    else if (element === 'SBL') acc.push(' ');
-    else if (element === '**') acc.push('**');
-*/
   return acc;
 }, []);
 
